@@ -1,6 +1,6 @@
 api:
   # -t the target API definition
-  target: teal-hornet-main-f515e70.d2.zuplo.dev/openapi.json
+  target: https://teal-hornet-main-f515e70.d2.zuplo.dev/openapi.json
   # -f the API format, openapi, soap, or graphql
   format: openapi
   # -O the hostname to override in the (remote) OpenAPI spec
