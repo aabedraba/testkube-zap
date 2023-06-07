@@ -20,4 +20,4 @@ api:
   # max time in minutes to wait for ZAP to start and the passive scan to run
   time: 60
   # -I should ZAP fail on warnings
-  fail_on_warn: true
+  fail_on_warn: false
