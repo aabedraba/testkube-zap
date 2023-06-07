@@ -4,7 +4,7 @@ full:
   # -c -u config file or URL
   config: zap-tk-full.conf
   # -m the number of minutes to spider for (default 1)
-  minutes: -1
+  minutes: 1
   # -d show debug messages
   debug: false
   # -s short output
