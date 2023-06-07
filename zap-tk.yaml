@@ -1,17 +1,15 @@
-full:
+baseline:
   # -t target URL including the protocol
-  target: https://teal-hornet-main-f515e70.d2.zuplo.dev
+  target: https://teal-hornet-main-f515e70.d2.zuplo.dev/
   # -c -u config file or URL
-  config: /data/repo/zap-tk-full.conf
-  # -m the number of minutes to spider for (default 1)
-  minutes: 1
+  config: /data/uploads/zap-tk-baseline.conf
   # -d show debug messages
-  debug: false
+  debug: true
   # -s short output
   short: true
   # -l minimum level to show: PASS, IGNORE, INFO, WARN or FAIL
-  level: FAIL
+  level: INFO
   # -j use the Ajax spider in addition to the traditional one
-  ajax: true
-  # -I do not fail on WARN
+  ajax: false
+  # -I fail on warn
   fail_on_warn: false
