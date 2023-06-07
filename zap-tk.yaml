@@ -1,23 +1,17 @@
-api:
-  # -t the target API definition
-  target: https://generator3.swagger.io/openapi.json
-  # -f the API format, openapi, soap, or graphql
-  format: openapi
-  # -O the hostname to override in the (remote) OpenAPI spec
-  # hostname: teal-hornet-main-f515e70.d2.zuplo.dev
-  # -S safe mode this will skip the active scan and perform a baseline scan
-  safe: true
-  # -c config file
-  config: zap-tk-api.conf
+full:
+  # -t target URL including the protocol
+  target: https://teal-hornet-main-f515e70.d2.zuplo.dev
+  # -c -u config file or URL
+  config: zap-tk-full.conf
+  # -m the number of minutes to spider for (default 1)
+  minutes: -1
   # -d show debug messages
-  debug: true
+  debug: false
   # -s short output
-  short: false
+  short: true
   # -l minimum level to show: PASS, IGNORE, INFO, WARN or FAIL
-  level: INFO
-  # delay in seconds to wait for passive scanning
-  delay: 5
-  # max time in minutes to wait for ZAP to start and the passive scan to run
-  time: 60
-  # -I should ZAP fail on warnings
+  level: FAIL
+  # -j use the Ajax spider in addition to the traditional one
+  ajax: true
+  # -I do not fail on WARN
   fail_on_warn: false
