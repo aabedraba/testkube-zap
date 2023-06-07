@@ -2,7 +2,7 @@ baseline:
   # -t target URL including the protocol
   target: https://teal-hornet-main-f515e70.d2.zuplo.dev/
   # -c -u config file or URL
-  config: /data/uploads/zap-tk-baseline.conf
+  config: /data/repo/zap-tk-baseline.conf
   # -d show debug messages
   debug: true
   # -s short output
