@@ -1,15 +1,2 @@
 baseline:
-  # -t target URL including the protocol
-  target: https://teal-hornet-main-f515e70.d2.zuplo.dev/
-  # -c -u config file or URL
-  config: /data/repo/zap-tk-baseline.conf
-  # -d show debug messages
-  debug: true
-  # -s short output
-  short: true
-  # -l minimum level to show: PASS, IGNORE, INFO, WARN or FAIL
-  level: INFO
-  # -j use the Ajax spider in addition to the traditional one
-  ajax: false
-  # -I fail on warn
-  fail_on_warn: false
+  target: https://teal-hornet-main-f515e70.d2.zuplo.dev
